@@ -133,3 +133,25 @@ img {
     width: 100%;
     }
 }
+
+
+@media screen and (max-width:480px){
+    .row{
+    flex-direction: column;
+    }
+    
+    .row .col{
+    width: 100%;
+    }
+
+    section.steps{
+    margin-top: 3rem;
+    margin-bottom: 0;
+    }
+
+    section.why-us{
+    background-color: #222222;
+    margin: 0;
+    padding: 3rem 0;
+    }
+}
